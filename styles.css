@@ -20,10 +20,23 @@ body {
 }
 
 .images img {
-    margin-right: 5px;
+    /* margin-right: 5px; */
     border-radius: 10px;
+    margin: 0 8px;
+    transition: all 200ms ease-in-out;
 
 }
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 2px grey;
+    /* position: relative;
+    right: 4px;
+    bottom: 4px; */
+
+
+}
+
 /* SEARCHING FORM*/
 
 input {
@@ -79,7 +92,7 @@ button {
 
 canvas {
     display: block;
-    vertical-align: bottom;
+    /* vertical-align: baseline; */
 }
 
 /* ---- particles.js container ---- */
@@ -101,7 +114,7 @@ canvas {
     padding-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-    height
+    /* height */
 }
 
 .js-count-particles {
